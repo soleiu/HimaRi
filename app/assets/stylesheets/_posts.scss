@@ -1,0 +1,35 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.Wapper
+  .Wapper__Top_image {
+    width: 100%;
+    position: relative;
+    display:flex;
+    &__box {
+      position: absolute;
+      justify-content: center;
+      top: 10px;
+      &__name {
+        justify-content: center;
+        color: #ffffff;
+        font-family: 'Caveat', cursive;
+        font-size: 80px;
+        line-height: 500px;
+        margin-left: calc(100% - 5px);
+      }
+    }
+  }
+.Wapper__bottom {
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+  justify-content: space-around;
+  text-align:center;
+  list-style: none;
+  display: flex;
+}
+.list {
+    text-decoration: none;
+    color:black
+}
+
